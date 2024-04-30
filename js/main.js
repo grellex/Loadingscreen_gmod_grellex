@@ -31,12 +31,13 @@ function GameDetails(
   }
   $("#title").fadeIn();
 
-  if (Config.enableMap) {
-    $("#map").append(mapname);
+if (Config.enableMap) {
+    $("#map").text("mapa:");
     $("#map").fadeIn();
-  } else {
+} else {
     $("#map").hide();
-  }
+}
+
 
   if (Config.enableSteamID) {
     $("#steamid").html(steamid);

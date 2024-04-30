@@ -32,7 +32,7 @@ function GameDetails(
   $("#title").fadeIn();
 
   if (Config.enableMap) {
-    $("#map").append(Mapa: );
+    $("#map").append(mapname);
     $("#map").fadeIn();
   } else {
     $("#map").hide();

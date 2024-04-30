@@ -13,7 +13,7 @@ var percentage = 0;
 function GameDetails(
   servername,
   serverurl,
-  ,
+  Mapname,
   maxplayers,
   steamid,
   gamemode
